@@ -21,7 +21,7 @@ MCP (Model Context Protocol) 연습 및 실습을 위한 프로젝트입니다.
 ```
 mcp-services/
 ├── .env                    # 환경 변수 (실제 API 키 포함)
-├── env.example            # 환경 변수 예시 파일
+├── .env.example            # 환경 변수 예시 파일
 ├── docker-compose.yml     # 통합 Docker Compose 설정
 ├── services/
 │   ├── tourism/          # Tourism MCP 서비스
@@ -50,7 +50,7 @@ mcp-services/
 
 ```bash
 # 환경 변수 파일 복사
-cp env.example .env
+cp .env.example .env
 
 # .env 파일을 편집하여 실제 API 키를 입력
 # KOREA_TOURISM_API_KEY=실제_관광공사_API_키  
