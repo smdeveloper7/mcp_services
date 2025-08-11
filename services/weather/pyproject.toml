@@ -1,0 +1,28 @@
+[project]
+name = "mcp-korea-weather-api"
+version = "0.1.0"
+authors = [
+    { name = "Harim Kang", email = "harimkang4422@gmail.com" },
+]
+description = "MCP Server for Korea Weather API"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+dependencies = [
+    "fastmcp==2.9.0",
+    "httpx>=0.28.1",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
